@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;800;900&family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Playfair+Display:ital,wght@0,600;0,700;0,800;0,900;1,600;1,700;1,800&family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap');
+@import "tailwindcss";
+
+@layer utilities {
+  .font-serif-luxury {
+    font-family: 'Playfair Display', 'Cormorant Garamond', 'Cinzel', serif;
+  }
+  .font-editorial {
+    font-family: 'Cormorant Garamond', Georgia, serif;
+  }
+
+  .bg-grid-pattern {
+    background-size: 40px 40px;
+    background-image: 
+      linear-gradient(to right, rgba(0, 142, 71, 0.08) 1px, transparent 1px),
+      linear-gradient(to bottom, rgba(0, 142, 71, 0.08) 1px, transparent 1px);
+  }
+  
+  .bg-grid-pattern-dense {
+    background-size: 20px 20px;
+    background-image: 
+      linear-gradient(to right, rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+      linear-gradient(to bottom, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+  }
+
+  .text-jaykastle-green {
+    color: #008E47;
+  }
+
+  .text-jaykastle-crimson {
+    color: #B81D24;
+  }
+
+  /* Jaykastle Signature Logo Gradients */
+  .text-emerald-gradient {
+    background: linear-gradient(135deg, #00C868 0%, #008E47 50%, #005C29 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .text-gold-gradient {
+    background: linear-gradient(135deg, #FFF0CA 0%, #D4AF37 50%, #9A7B21 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .text-crimson-gradient {
+    background: linear-gradient(135deg, #FF4D55 0%, #E6222B 50%, #B81D24 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .text-platinum-gradient {
+    background: linear-gradient(135deg, #FFFFFF 0%, #CBD5E1 60%, #64748B 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .bg-emerald-brand-gradient {
+    background: linear-gradient(135deg, #008E47 0%, #005C29 60%, #003718 100%);
+  }
+
+  .bg-emerald-brand-hover {
+    background: linear-gradient(135deg, #00A653 0%, #007032 60%, #00451F 100%);
+  }
+
+  .bg-crimson-brand-gradient {
+    background: linear-gradient(135deg, #E6222B 0%, #B81D24 100%);
+  }
+
+  .border-emerald-glow {
+    box-shadow: 0 0 30px -5px rgba(0, 142, 71, 0.35);
+  }
+
+  .border-gold-glow {
+    box-shadow: 0 0 25px -5px rgba(212, 175, 55, 0.25);
+  }
+
+  .border-crimson-glow {
+    box-shadow: 0 0 25px -5px rgba(230, 34, 43, 0.3);
+  }
+  
+  .emerald-shimmer {
+    background: linear-gradient(90deg, rgba(0, 142, 71, 0) 0%, rgba(0, 142, 71, 0.25) 50%, rgba(0, 142, 71, 0) 100%);
+  }
+
+  .gold-shimmer {
+    background: linear-gradient(90deg, rgba(212, 175, 55, 0) 0%, rgba(212, 175, 55, 0.2) 50%, rgba(212, 175, 55, 0) 100%);
+  }
+}
+
+/* Custom Scrollbar for Luxury Dark Aesthetic */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #060a14;
+}
+::-webkit-scrollbar-thumb {
+  background: #0f1d2e;
+  border-radius: 4px;
+  border: 1px solid rgba(0, 142, 71, 0.3);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #005C29;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
