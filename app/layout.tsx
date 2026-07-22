@@ -6,6 +6,11 @@ export const metadata: Metadata = {
   title: 'JAYKASTLE NIGERIA LIMITED | Marine, Engineering & Logistics',
   description: 'Redefining offshore infrastructure, marine engineering, specialized dredging, and strategic procurement for energy corridors across Nigeria. RC 1197099.',
   keywords: ['Marine Engineering', 'Logistics', 'Offshore Infrastructure', 'Procurement', 'Jaykastle Nigeria Limited', 'Dredging', 'Port Harcourt', 'Nigeria Oil and Gas'],
+  icons: {
+    icon: '/jaykastle_single_icon.png',
+    shortcut: '/jaykastle_single_icon.png',
+    apple: '/jaykastle_single_icon.png',
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
